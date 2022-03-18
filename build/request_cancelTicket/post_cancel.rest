@@ -1,0 +1,7 @@
+POST http://localhost:3001/api/cancel
+Content-Type: application/json
+
+{
+    "Uid": "8V7lWrJqnJhbunX5wNh3WNGMA8O2",
+    "content": "No creo mucho en esta loteria me parece una forma de hacer estafas"
+}

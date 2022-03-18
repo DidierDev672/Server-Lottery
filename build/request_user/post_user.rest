@@ -1,0 +1,12 @@
+POST http://localhost:3001/api/ticket/user
+Content-Type: application/json
+
+{
+    "name": "Didier",
+    "phone": "3242834033",
+    "city": "Caucasia-Antioquia",
+    "address": "El poblado Calle 6A # 3 A 40",
+    "Uid": "7A7xzP4RMUfOqJHqZlxuswxOtN32",
+    "email": "ariasdev672@gmail.com",
+    "password": "HunterXHunter45@"
+}

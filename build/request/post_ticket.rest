@@ -1,0 +1,7 @@
+POST http://localhost:3001/api/ticket
+Content-Type: application/json
+
+{
+    "Uid": "a5jFDOnwzYPWBrZocrA16U8Vsar2",
+    "quantityTicket": 1
+}

@@ -1,0 +1,1 @@
+DELETE http://localhost:3001/api/ticket/62334031952f3844f92a808b
