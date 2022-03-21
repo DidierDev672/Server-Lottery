@@ -4,7 +4,7 @@ let schemaCancel:any
 
 schemaCancel = new Schema({
     Uid: {type: String, required: true},
-    idTicket: { type: String, required: true },
+    IdTicket: { type: String, required: true },
     data: {type: Date, required: true},
     content: {type: String, required: true}
 })
