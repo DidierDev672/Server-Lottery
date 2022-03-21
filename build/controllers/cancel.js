@@ -19,7 +19,7 @@ ticketCancel.post('/', (req, res) => __awaiter(void 0, void 0, void 0, function*
     const body = req.body;
     const cancel = new cancelTicket({
         Uid: body.Uid,
-        idTicket: body.idTicket,
+        IdTicket: body.IdTicket,
         content: body.content,
         data: new Date()
     });
