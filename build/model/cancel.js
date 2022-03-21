@@ -4,7 +4,7 @@ const mongoose_1 = require("mongoose");
 let schemaCancel;
 schemaCancel = new mongoose_1.Schema({
     Uid: { type: String, required: true },
-    idTicket: { type: String, required: true },
+    IdTicket: { type: String, required: true },
     data: { type: Date, required: true },
     content: { type: String, required: true }
 });
