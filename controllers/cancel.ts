@@ -8,7 +8,7 @@ ticketCancel.post('/', async (req, res) => {
 
     const cancel = new cancelTicket({
         Uid: body.Uid,
-        idTicket: body.idTicket,
+        IdTicket: body.IdTicket,
         content: body.content,
         data: new Date()
     })
